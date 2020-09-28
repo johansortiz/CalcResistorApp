@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalcResistorApp</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco" >5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve" >9</string>
+    <string name="cero">0</string>
+    <string name="Por_uno">X1</string>
+    <string name="por_10">X10</string>
+    <string name="por_100">X100</string>
+    <string name="por1000">X1000</string>
+    <string name="por10000">X10000</string>
+    <string name="por100000">X100000</string>
+    <string name="por1000000">X1000000</string>
+    <string name="div10">" /10"</string>
+    <string name="div100">/100</string>
+    <string name="masmenos1">+- 1%</string>
+    <string name="masmenos2">+- 2%</string>
+    <string name="masmenos5">+- 5%</string>
+    <string name="masmenos10">+- 10%</string>
+
+    <string name="negro">Black</string>
+    <string name="marron">Brown</string>
+    <string name="rojo">Red</string>
+    <string name="naranja">Orange</string>
+    <string name="amarillo">Yellow</string>
+    <string name="verde">Green</string>
+    <string name="azul">"Blue"</string>
+    <string name="violeta">Violet</string>
+    <string name="gris">Gray</string>
+    <string name="blanco">White</string>
+    <string name="dorado">Golden</string>
+    <string name="plateado">Silver</string>
+
+    <string name="compare1">Select color band 1</string>
+    <string name="compare2">Select color band 2</string>
+    <string name="compare3">Select color band 3</string>
+    <string name="compare4">Select color band 4</string>
+
+    <string name="calcular">Calculate</string>
+
+</resources>

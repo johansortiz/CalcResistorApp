@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CalcResistorApp</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco" >5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve" >9</string>
+    <string name="cero">0</string>
+    <string name="Por_uno">X1</string>
+    <string name="por_10">X10</string>
+    <string name="por_100">X100</string>
+    <string name="por1000">X1000</string>
+    <string name="por10000">X10000</string>
+    <string name="por100000">X100000</string>
+    <string name="por1000000">X1000000</string>
+    <string name="div10">" /10"</string>
+    <string name="div100">/100</string>
+    <string name="masmenos1">+- 1%</string>
+    <string name="masmenos2">+- 2%</string>
+    <string name="masmenos5">+- 5%</string>
+    <string name="masmenos10">+- 10%</string>
+
+    <string name="negro">Negro</string>
+    <string name="marron">Marrón</string>
+    <string name="rojo">Rojo</string>
+    <string name="naranja">Naranja</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="verde">Verde</string>
+    <string name="azul">"Azul"</string>
+    <string name="violeta">Violeta</string>
+    <string name="gris">Gris</string>
+    <string name="blanco">Blanco</string>
+    <string name="dorado">Dorado</string>
+    <string name="plateado">Plateado</string>
+
+    <string name="compare1">Seleccione color banda 1</string>
+    <string name="compare2">Seleccione color banda 2</string>
+    <string name="compare3">Seleccione color banda 3</string>
+    <string name="compare4">Seleccione color banda 4</string>
+
+
+    <string name="calcular">Calcular</string>
+    <string name="respuesta" />
+    <string name="resistor" />
+    <string name="resitor_imagen" />
+</resources>

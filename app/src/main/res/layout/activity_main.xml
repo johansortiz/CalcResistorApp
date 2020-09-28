@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="606dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ECE9E9"
+        android:backgroundTint="#555554"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/banda4"
+            android:layout_width="30dp"
+            android:layout_height="85dp"
+            android:layout_marginEnd="70dp"
+            android:backgroundTint="#804000"
+            app:layout_constraintBottom_toTopOf="@+id/ban4_marron_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/banda3"
+            android:layout_width="30dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="42dp"
+            android:backgroundTint="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/banda4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/banda2"
+            android:layout_width="30dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="#000000"
+            app:layout_constraintEnd_toStartOf="@+id/banda3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/banda1"
+            android:layout_width="30dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="#804000"
+            app:layout_constraintEnd_toStartOf="@+id/banda2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="240dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="339dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="80dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="160dp" />
+
+        <Button
+            android:id="@+id/ban3_negro_btn"
+            android:layout_width="45dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#000000"
+            android:text="@string/Por_uno"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/ban2_marron_btn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/respuesta_test" />
+
+        <Button
+            android:id="@+id/ban2_violeta_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#B838CD"
+            android:text="@string/siete"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban1_violeta_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_azul_btn" />
+
+        <Button
+            android:id="@+id/ban3_marron_btn"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#804000"
+            android:text="@string/por_10"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban2_marron_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban3_negro_btn" />
+
+        <Button
+            android:id="@+id/ban2_rojo_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#A50C0C"
+            android:text="@string/dos"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban1_rojo_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_marron_btn" />
+
+        <Button
+            android:id="@+id/ban2_negro_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#000000"
+            android:text="@string/cero"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/ban2_marron_btn"
+            app:layout_constraintStart_toEndOf="@+id/ban1_marron_btn"
+            app:layout_constraintTop_toBottomOf="@+id/respuesta_test" />
+
+        <Button
+            android:id="@+id/ban1_naranja_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#FF8000"
+            android:text="@string/tres"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ban1_rojo_btn" />
+
+        <Button
+            android:id="@+id/ban2_gris_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#636363"
+            android:text="@string/ocho"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban1_gris_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_violeta_btn" />
+
+        <Button
+            android:id="@+id/ban1_marron_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#804000"
+            android:text="@string/uno"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_negro_btn" />
+
+        <Button
+            android:id="@+id/ban3_naranja_btn"
+            android:layout_width="65dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#FF8000"
+            android:text="@string/por1000"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban2_naranja_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_rojo_btn" />
+
+        <Button
+            android:id="@+id/ban2_marron_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#804000"
+            android:text="@string/uno"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban1_marron_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_negro_btn" />
+
+        <Button
+            android:id="@+id/ban2_verde_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#71F176"
+            android:text="@string/cinco"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban1_verde_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_amarillo_btn" />
+
+        <Button
+            android:id="@+id/ban3_azul_btn"
+            android:layout_width="95dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#3F51B5"
+            android:text="@string/por1000000"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban2_azul_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_verde_btn" />
+
+        <Button
+            android:id="@+id/ban1_blanco_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#E8E4E4"
+            android:text="@string/nueve"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ban1_gris_btn" />
+
+        <Button
+            android:id="@+id/ban4_dorado_btn"
+            android:layout_width="60dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#e6ac00"
+            android:text="@string/masmenos5"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ban4_rojo_btn" />
+
+        <Button
+            android:id="@+id/ban4_rojo_btn"
+            android:layout_width="60dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#A50C0C"
+            android:text="@string/masmenos2"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ban4_marron_btn" />
+
+        <Button
+            android:id="@+id/ban2_naranja_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#FF8000"
+            android:text="@string/tres"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban1_naranja_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_rojo_btn" />
+
+        <Button
+            android:id="@+id/ban3_plateado_btn"
+            android:layout_width="60dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#CACECF"
+            android:text="@string/div100"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban2_gris_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_violeta_btn" />
+
+        <Button
+            android:id="@+id/ban1_gris_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#636363"
+            android:text="@string/ocho"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ban1_violeta_btn" />
+
+        <Button
+            android:id="@+id/ban3_rojo_btn"
+            android:layout_width="60dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#A50C0C"
+            android:text="@string/por_100"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban2_rojo_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_marron_btn" />
+
+        <Button
+            android:id="@+id/ban1_azul_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#3F51B5"
+            android:text="@string/seis"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ban1_verde_btn" />
+
+        <Button
+            android:id="@+id/ban4_plateado_btn"
+            android:layout_width="75dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#CACECF"
+            android:text="@string/masmenos10"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.946"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ban4_dorado_btn" />
+
+        <Button
+            android:id="@+id/ban1_violeta_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#B838CD"
+            android:text="@string/siete"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ban1_azul_btn" />
+
+        <Button
+            android:id="@+id/ban2_amarillo_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#FFEB3B"
+            android:text="@string/cuatro"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban1_amarillo_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_naranja_btn" />
+
+        <Button
+            android:id="@+id/ban1_verde_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#71F176"
+            android:text="@string/cinco"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ban1_amarillo_btn" />
+
+        <Button
+            android:id="@+id/ban4_marron_btn"
+            android:layout_width="60dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#804000"
+            android:text="@string/masmenos1"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/respuesta_test" />
+
+        <Button
+            android:id="@+id/ban1_amarillo_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#FFEB3B"
+            android:text="@string/cuatro"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ban1_naranja_btn" />
+
+        <Button
+            android:id="@+id/ban2_azul_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#3F51B5"
+            android:text="@string/seis"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban1_azul_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_verde_btn" />
+
+        <Button
+            android:id="@+id/ban2_blanco_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#E8E4E4"
+            android:text="@string/nueve"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban1_blanco_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_gris_btn" />
+
+        <Button
+            android:id="@+id/ban3_dorado_btn"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#e6ac00"
+            android:text="@string/div10"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban2_violeta_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_azul_btn" />
+
+        <Button
+            android:id="@+id/ban1_rojo_btn"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#A50C0C"
+            android:text="@string/dos"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ban1_marron_btn" />
+
+        <Button
+            android:id="@+id/ban3_amarillo_btn"
+            android:layout_width="75dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#FFEB3B"
+            android:text="@string/por10000"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban2_amarillo_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_naranja_btn" />
+
+        <Button
+            android:id="@+id/ban3_verde_btn"
+            android:layout_width="85dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#71F176"
+            android:text="@string/por100000"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/ban2_verde_btn"
+            app:layout_constraintTop_toBottomOf="@+id/ban2_amarillo_btn" />
+
+        <TextView
+            android:id="@+id/respuesta_test"
+            android:layout_width="397dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:text="@string/respuesta"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="419dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/resitor_imagen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/resistencia_4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
